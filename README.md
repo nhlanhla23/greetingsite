@@ -1,1 +1,2 @@
-# greetingsite
+
+The submitForm function retrieves values from two input fields (name and language) in an HTML form. It then uses a series of conditional statements to determine the appropriate greeting based on the selected language. If the language is 'sepedi,' the greeting will be 'Thobela' followed by the entered name, and similarly, different greetings are assigned for various languages such as Zulu, Xhosa, Afrikaans, Sesotho, Tswana, Tshivenda, Tsonga, and Siswati. If none of the specified languages is chosen, the default greeting will be 'Hello' followed by the entered name. The resulting greeting is then displayed on the webpage in an element with the id 'greeting.' Note that the comparison is case-insensitive by converting the language input to lowercase.
